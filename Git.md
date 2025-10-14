@@ -34,7 +34,7 @@ git rm 文件名		<font style="color:rgba(0, 0, 0, 0.85);">从工作区删除文
 
 <font style="color:#8A8F8D;">rm 文件名		直接在文件管理器中删文件，但是删不掉版本库中的文件</font>
 
-
+![](https://cdn.nlark.com/yuque/0/2025/png/61471817/1760424483383-b5db30e2-cce7-4442-9b7a-51e329181944.png)
 
 查看历史：
 
@@ -68,7 +68,7 @@ git checkout -b 分支名	创建分支并切换到新创建的分支
 
 远程仓库管理：
 
-git remote add origin git@github.com:GitHub账户名/仓库名.git	关联本地仓库与远程仓库,仓库名一般用同一个，origin是默认的远程仓库名，可以改
+git remote add origin git@github.com:GitHub账户名/仓库名.git	关联本地仓库与远程仓库,origin是默认的远程仓库名，可以改
 
 git remote -v	查看远程库信息
 

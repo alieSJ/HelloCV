@@ -108,7 +108,7 @@ mv:移动文件或目录，重命名文件或目录 用法：mv old_filename new
 
 rm: 删除文件或目录 用法：rm file（删除文件）rm -r dir（删除目录）
 
-ls：列出目录下的内容 用法：ls （列出当前目录下的内容）  ls -l （以长格式显示当前目录下的内容，包含大小，权限，作者）  ls -a （<font style="color:rgba(0, 0, 0, 0.85);">当前目录文件和目录，包括隐藏文件）</font>
+ls：列出目录下的内容 用法：ls （列出当前目录下的内容）  ls -l （以长格式显示当前目录下的内容，包含大小，权限，作者）  ls -a （<font style="color:rgba(0, 0, 0, 0.85);">当前目录文件和目录，包括隐藏文件）</font>![](https://cdn.nlark.com/yuque/0/2025/png/61471817/1760422492202-6004389f-ca7e-431c-9d26-1ea1c91d45ce.png)
 
 <font style="color:rgba(0, 0, 0, 0.85);">touch：创建空文件或更新已有文件的访问和修改时间 用法：touch file（原先不存在filejiu生成空文件，存在就更新访问）</font>
 
@@ -117,6 +117,8 @@ ls：列出目录下的内容 用法：ls （列出当前目录下的内容）  
 软件安装：
 
 apt：安装，更新，卸载软件包 用法：apt install 软件包名（ 安装软件包）apt update（更新软件包列表）apt upgrade（升级已安装的软件包）apt remove 软件包名（卸载）
+
+![](https://cdn.nlark.com/yuque/0/2025/png/61471817/1760422391550-967c04e8-84af-48a7-b9c2-f6ca7e395e3f.png)
 
 snap：对新型软件包格式snap进行操作，该格式的软件在不同linux版本一致运行 用法：snap install snap软件包名（安装）snap remove snap软件包名（卸载）
 
@@ -130,7 +132,7 @@ chmod：改变文件或目录的权限 用法：chmod 权限 文件名
 
 进程控制：
 
-ps：查看当前系统的进程状态，ps aux可查看所有用户的进程信息
+ps：查看当前系统的进程状态，ps aux可查看所有用户的进程信息![](https://cdn.nlark.com/yuque/0/2025/png/61471817/1760422434230-606eeb35-396a-42e2-837c-3baf6f6ecd47.png)
 
 kill：终止进程 用法：kill 进程名(终止特定进程）
 

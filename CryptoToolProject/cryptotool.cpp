@@ -286,7 +286,7 @@ void Menu::FileEncryptmode()
     cout<<"please enter the filename which you want the cryptied text in"<<endl;
     clearInputBuffer();
     getline(cin,newfilename);
-    fileHandler.Writefile(sourcefilename, encryptcontent);
+    fileHandler.Writefile(newfilename, encryptcontent);
 }
 
 void Menu::FileDecryptmode()
